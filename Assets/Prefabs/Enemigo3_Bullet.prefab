@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 1231645646488351026}
   - component: {fileID: -2273100587194799687}
   - component: {fileID: 2739092559732828862}
+  - component: {fileID: 5446290247504796472}
   m_Layer: 0
   m_Name: Enemigo3_Bullet
   m_TagString: Untagged
@@ -160,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 127008fa22a73f844b8e427b8a63aaf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 2441940983654108164, guid: 72c1b05a7f1e1104c9757a8df55f9a67, type: 3}
   moveSpeed: 5
   followTime: 5
   returnSpeed: 5
@@ -177,3 +178,15 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &5446290247504796472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3503170023393469074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a96647d95dd02b41bcb534f06e36205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
