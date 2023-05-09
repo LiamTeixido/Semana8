@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 110198709}
   - component: {fileID: 110198708}
   - component: {fileID: 110198707}
-  - component: {fileID: 110198711}
   m_Layer: 0
   m_Name: Enemy1
   m_TagString: Untagged
@@ -255,25 +254,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &110198711
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110198705}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8dba01c5f04f4148ac0840c2b033d80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  puntoA: {fileID: 1960218321}
-  puntoB: {fileID: 1163321487}
-  velocity: 1
-  Bullet: {fileID: 1986675793233696477, guid: 0225c49df8e7fb449953ce17266bbd69, type: 3}
-  ForceBullet: 20
-  spawnPoint: {fileID: 88537113}
-  timeBetweenShots: 1
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
